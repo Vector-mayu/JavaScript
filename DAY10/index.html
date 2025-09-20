@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dollar to INR Converter</title>
+  <link rel="stylesheet" href="./index.css">
+  
+</head>
+<body>
+  <h2>💰 Dollar to INR Converter</h2>
+  <input type="number" id="dollar" placeholder="Enter amount in $">
+  <button onclick="convert()">Convert</button>
+  <div id="result"></div>
+
+  <script>
+    function convert() {
+      const dollar = document.getElementById("dollar").value;
+      const rate = 88.17; // Example: 1 USD = 83.5 INR (you can update this rate)
+      
+      if (dollar === "" || isNaN(dollar)) {
+        document.getElementById("result").innerHTML = "⚠️ Please enter a valid number!";
+        return;
+      }
+
+      const inr = dollar * rate;
+      document.getElementById("result").innerHTML = 
+        `$${dollar} = ₹${inr.toFixed(2)}`;
+    }
+  </script>
+</body>
+</html>
