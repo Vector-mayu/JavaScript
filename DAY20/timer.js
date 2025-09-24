@@ -1,8 +1,8 @@
-
+// 2026 count down
 function timers()
 {
   const timer = document.getElementById('root');
-  const olymp = new Date("2027-04-30T00:00:00"); // Olympic Date
+  const olymp = new Date("2025-12-31T00:00:00"); // 2026 Countdown
   const now = new Date(); // Ajjki Date
   
   const IndianTime = (olymp - now);
@@ -17,7 +17,7 @@ function timers()
 setInterval(timers, 1000);
 
 const timer = document.getElementById('root');
-timer.style.fontSize ="90px";
+timer.style.fontSize ="30px";
 timer.style.display = "flex";
 timer.style.height = "100vh";
 timer.style.justifyContent = "center";
