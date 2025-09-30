@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  color: rgb(0, 0, 0);
+  height: 5rem;
+  width: 5rem;
+  border-radius: .5rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 2px solid black;
+}
+
+#red {
+  background-color: red;
+}
+#green {
+  background-color: green;
+}
+#blue {
+  background-color: blue;
+}
+#yellow {
+  background-color: yellow;
+}
+#orange {
+  background-color: orange;
+}
+
+
+
