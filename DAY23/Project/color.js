@@ -1,12 +1,25 @@
-const buttons = document.querySelectorAll('button');
-const body = document.body;
+          // BackGround Color Changer
 
-buttons.forEach((button)=>{
+// const buttons = document.querySelectorAll('button');
+// const body = document.body;
 
-  button.addEventListener('click', ()=>{
-    body.style.backgroundColor = button.id;
-  })
-});
 
+// buttons.forEach((button)=>{
+//   button.addEventListener('click', ()=>{
+//     body.style.backgroundColor = button.id;
+//   })
+// });
+
+
+// Code Optimization using Event Bubbling and capturing
+
+const root = document.getElementById('root');
+
+root.addEventListener('click', (event) => {
+  if(event.target.tagName === 'BUTTON')
+  {
+    document.body.style.backgroundColor = event.target.id;
+  }
+})
 
 
