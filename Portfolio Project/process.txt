@@ -1,0 +1,18 @@
+Steps involved to build Portfolio Website
+
+-> ceated a div calle main-container
+-> Created 2 division which are side-bar and main content using grid 
+-> gave grid properties like grid-templates-colums for sizing both division
+-> Introduced gap between them 
+-> gave padding from top to whole both divs
+-> used margin auto to automatically adjust MARGIN-LEFT and MARGIN-RIGHT
+-> Used Border radius and border color to make it attaractive
+-> created div profiles added pr image, h2(name), p(designation)
+-> parent heirarchy added properties to all elements inside profile div
+-> used text-align center to center profile divs
+-> TEXT-ALIGN : center is used to center inline elements
+-> create div for contact info
+-> added a break line between profile and contact
+-> added email, phone number, 
+-> added svh icons in social links section
+-> added filter and transiton for hover effect

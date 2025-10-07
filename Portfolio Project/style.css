@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #1e1e1e;
+	color: #a0a0a0;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+.main-container{
+	display: grid;
+	max-width: 1200px;
+	grid-template-columns: 350px 1fr;
+	gap: 40px;
+	padding-top: 2rem;
+	margin: auto;  	/* using margin auto will automatically bring the container in center */
+	
+}
+
+.side-bar{
+	height: 90vh;
+	background-color: #2a2a2a;
+	border: 1px solid #3a3a3a;
+	border-radius: 15px;
+}
+
+.main-content{
+	height: 90vh;
+	background-color: #2a2a2a;
+	border: 1px solid #3a3a3a;
+	border-radius: 15px;
+}
+
+/* Profile CSS */
+
+.profile{
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.profile img{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	border: 1px solid #3a3a3a;
+}
+
+.profile h2{
+	color: #e0e0e0;
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-top: 20px;
+}
+.profile p{
+	color: #FFBF00;
+	background-color: #1e1e1e;
+	padding: 5px 15px;
+	font-size: 1rem;
+	display: inline-block;
+	border-radius: 8px;
+	margin-top: .5rem;
+	border: 1px solid;
+}
+
+/* Contact CSS */
+
+.contact{
+	margin: 1.5rem;
+	margin-top: 30px;;
+	border-top: 2px solid #3a3a3a;
+}
+
+.contact .email {
+	color: #e0e0e0;
+	margin-left: 1rem;
+	margin-top: 1.5rem;
+}
+
+.contact .phone  {
+	color: #e0e0e0;
+	margin-left: 1rem;
+	margin-top: 1.5rem;
+}
+
+.contact .address {
+	color: #e0e0e0;
+	margin-left: 1rem;
+	margin-top: 1.5rem;
+}
+
+.contact p{
+	font-size: 14px;
+	color: #a0a0a0;
+}
+
+/* Social Media Links */
+
+.links {
+	margin: 1.5rem;
+	margin-top: 30px;
+	border-top: 2px solid #3a3a3a;
+	text-align: center;
+}
+
+.links img{
+	height: 24px;
+	width: 24px;
+	margin-top: 0.8rem;
+	margin-left: 10px;
+	color: #e0e0e0;
+	filter: grayscale(1) invert(0.7);
+	transition: filter 0.3s ease ;
+}
+
+.links img:hover {
+	filter: grayscale(0) invert(0);
+}
