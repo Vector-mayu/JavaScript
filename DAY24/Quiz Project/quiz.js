@@ -26,7 +26,7 @@
 
 // CODE OPTIMIZATION USING Objects for comparing the answers
 
-const original_answer ={
+const original_answer = {
 	q1 : 'Sachin Tendulkar',
 	q2 : 'West Indies',
 	q3 : 'Sachin Tendulkar',
@@ -44,7 +44,7 @@ form.addEventListener('submit', (event) =>{
 	let result = 0;
 
 	for(let [key, value] of data.entries()) // [] we used for Destructuring the object
-	{ // Here data.entries() is a Iterator which is stored in [key, value] format
+	{ // Here data.entries() is a Iterator which is store in [key, value] format
 		if(value === original_answer[key])
 		{
 			result++;
