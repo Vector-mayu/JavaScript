@@ -31,7 +31,7 @@ const original_answer = {
 	q2 : 'West Indies',
 	q3 : 'Sachin Tendulkar',
 	q4 : '264',
-	q5 : 'Muttiah Muralitharan'
+	q5 : 'Muttiah Muralitharan' 
 };
 
 const form = document.querySelector('form');
